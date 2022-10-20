@@ -8,3 +8,106 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    background-color: #540B51;
+    a {
+        color: #2E71A6;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+
+/* Navigation */
+    nav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 100vh;
+}
+nav ul {
+   display: none;
+    }
+
+nav img {
+    margin: 15px;
+    width: 20vh;
+    }
+
+.icon-head {
+   
+    margin-right: 30px;
+    width: 10px;
+    height: 10px;
+}
+
+/*Header*/
+
+h1 {
+margin-top: 60px;
+margin-bottom: 40px;
+width: 100vh;
+text-align: center;
+color: white;
+}
+
+#head-text {
+    width: 100vh;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+
+#yellow-text {
+
+color: yellow;    
+}
+
+.register {
+
+display: flex;
+flex-direction: column;
+
+}
+
+#button1 {
+    height: 75px;
+    width: 100vh;
+    margin-bottom: 15px;
+}
+
+#button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    width: 100vh;
+    background: #4285F4;
+}
+
+#img-button2{
+    text-align: left;
+    height: 50px;    
+}
+
+#text-button2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    color: white;
+    background-color: #4285F4;
+}
+.register {
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+    }
+
+    
+  }
